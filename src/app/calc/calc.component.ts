@@ -13,4 +13,13 @@ export class CalcComponent {
   sum(){
     this.result = this.num1 + this.num2;
   }
+  subtraction(){
+    this.result = this.num1 - this.num2;
+  }
+  division(){
+    this.result = this.num1 / this.num2;
+  }
+  multiplication(){
+    this.result = this.num1 * this.num2;
+  }
 }
